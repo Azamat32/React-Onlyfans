@@ -1,0 +1,10 @@
+{
+  "authentication": "Авторизация",
+  "about": "О нас",
+  "help": "Помощь",
+  "contact": "Контакты",
+  "termsOfService": "Условия обслуживания",
+  "forgotPassword": "Забыли пароль?",
+  "login": "Войти",
+  "signup": "Зарегистрироваться"
+}

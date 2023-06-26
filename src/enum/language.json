@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Русский",
+    "code": "ru"
+  },
+  {
+    "id": 2,
+    "title": "English",
+    "code": "en"
+  }
+]

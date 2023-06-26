@@ -1,0 +1,44 @@
+$palette: (
+  'black': (
+    800: #595964,
+    900: #28282C
+  ),
+  'white': (
+    50: #FFFFFF
+  ),
+  'grey':(
+    50: #F7F7F8,
+    100: #EFEFF4,
+    200: #DDDEE8,
+    300: #CCCDD7,
+    400: #ABABB8,
+    600: #858593,
+  ),
+  'blue': (
+    300: #7989F8,
+    500: #3F50C0,
+    600: #23329A,
+    700: #10208D,
+  ),
+  'green': (
+    500: #93D674
+  ),
+  'red': (
+    500: #FF7979
+  )
+);
+
+@function get-color($name, $variant: 50, $opacity: 1) {
+  $color: null;
+  $color-spectrum: map-get($palette, $name);
+  @if $color-spectrum {
+    $color: map-get($color-spectrum, $variant);
+  }
+  $alpha: if(type-of($opacity) == 'number', $opacity, map-get($opacity, $opacity));
+  @if $alpha {
+    $color: rgba($color, $alpha);
+  }
+  @return $color;
+}
+
+

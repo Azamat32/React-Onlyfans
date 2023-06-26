@@ -1,0 +1,442 @@
+.other_profiles_header {
+  .back {
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    z-index: 2;
+    &:hover {
+      path {
+        fill: #3f50c0;
+      }
+    }
+  }
+}
+.my_profile_inner{
+ 
+  .profile_main_inner{
+    border-left: 1px solid rgb(239, 239, 244);
+    height: 100vh;
+    border-right: 1px solid rgb(239, 239, 244);
+  }
+}
+.other_profiles_username_avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  img {
+    width: 112px;
+    height: 112px;
+    border: 2px solid #ffff;
+    -webkit-box-shadow: 0px 0px 0px 2px #ffffff inset;
+    box-shadow: 0px 0px 0px 2px #ffffff inset;
+    border-radius: 100%;
+    margin-right: 16px;
+  }
+}
+.other_profiles_username_avatar_text {
+  h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    span {
+      color: #28282c;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 8px;
+      margin-right: 5.4px;
+    }
+    img {
+      margin-top: 4px;
+    }
+  }
+  p {
+    color: #ababb8;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  img {
+    width: 20px;
+    box-shadow: none;
+    height: 20px;
+    margin-left: -4px;
+  }
+}
+.other_profiles_header_community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.other_profiles_community_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.other_profiles_community_right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ababb8;
+  }
+  .copy_link {
+    margin-right: 16px;
+  }
+  .metal_pair {
+    path {
+      transition: 0.2s ease-in-out;
+    }
+  }
+  .metal_pair:hover {
+    path {
+      fill: #3f50c0;
+    }
+  }
+}
+.other_profiles_header_text {
+  margin-bottom: 40px;
+  p {
+    color: #595964;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  a {
+    color: #3f50c0;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+
+    &:hover {
+      color: #23329a;
+    }
+  }
+}
+.lock_item_btn:hover {
+  background: #3f50c0;
+}
+.w3-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  color: #ababb8;
+  font-weight: 400;
+  font-size: 16px;
+}
+.w3-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.w3-red {
+  color: #28282c;
+  &::after {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    background: #3f50c0;
+    height: 3px;
+    bottom: -32px;
+    display: block;
+    position: absolute;
+    width: 40px;
+    content: ' ';
+    border-radius: 20px;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.witoutbanner {
+  background: #dddee8;
+}
+.other_profiles_banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 200px;
+  height: 100vh;
+  position: absolute;
+  background-position: center;
+  width: 100%;
+  z-index: -1;
+}
+.other_profiles_header_content {
+  padding: 30px 55px;
+}
+
+.other_profiles_header_username {
+  margin-top: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  h3 {
+    cursor: pointer;
+  }
+  .other_profiles_username_avatar_image {
+    padding: 45px 30px;
+    border-radius: 100%;
+    background: #efeff4;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    width: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    margin-right: 16px;
+    position: relative;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .other_profiles_username_avatar_image::after {
+    position: absolute;
+    background: #93d674;
+    border: 2px solid #ffffff;
+    width: 8px;
+    height: 8px;
+    content: '';
+    right: 10px;
+    bottom: 9px;
+    border-radius: 100%;
+  }
+
+  .other_profiles_username_subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+  }
+  .link_box {
+    top: 40px;
+  }
+  .copy_link {
+    margin-right: 24px;
+  }
+}
+.sub_btn {
+  button {
+    padding: 10px 28px;
+  }
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+
+  svg {
+    margin-right: 14px;
+  }
+}
+
+.other_profiles_forms {
+  padding: 24px 55px;
+}
+.other_profiles_header_title {
+  svg {
+    cursor: pointer;
+    path {
+      transition: 0.2s ease-in-out;
+    }
+  }
+  svg:hover {
+    path {
+      fill: #3f50c0;
+    }
+  }
+}
+
+.witoutbanner {
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.my_profiles_banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 200px;
+  height: 100vh;
+  position: absolute;
+  background-position: center;
+  width: 100%;
+  z-index: -1;
+}
+.about_input {
+  label {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Cera Pro', sans-serif;
+    color: #ababb8;
+    padding: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    pointer-events: none;
+  }
+}
+.other_profiles_forms_wrap {
+  position: relative;
+  label {
+    margin-bottom: 24px;
+  }
+}
+.my_profiles_header_title {
+  display: flex;
+  align-items: center;
+  padding: 48px 55px 24px;
+  img {
+    margin-right: 24px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    &:hover {
+      path {
+        fill: #3f50c0;
+      }
+    }
+  }
+}
+.other_profiles_forms_wrap {
+  input:valid {
+    border: 1px solid #ababb8;
+  }
+}
+.other_profiles_forms_wrap {
+  input:focus + label,
+  input:valid + label {
+    font-size: 12px;
+    color: #ababb8;
+    top: 7px;
+    left: 13px;
+    background: none;
+    padding: 0px 5px 0px 5px;
+  }
+}
+
+.about_input {
+  margin: 0px 0px 24px;
+  textarea {
+    resize: none;
+    outline-color: #dddee8;
+    height: 128px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-right: 16px;
+    width: 100%;
+    border: 1px solid #efeff4;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  textarea::-webkit-scrollbar {
+    width: 0;
+  }
+  textarea:valid {
+    border: 1px solid #ababb8;
+  }
+  textarea:focus + label,
+  textarea:valid + label {
+    font-size: 12px;
+    color: #ababb8;
+    top: 7px;
+    left: 13px;
+    background: none;
+    padding: 0px 5px 0px 5px;
+  }
+  .about_input_span {
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ababb8;
+    margin-top: 8px;
+  }
+}
+.other_profiles_forms_btn {
+  text-align: right;
+  margin-top: 32px;
+}
+.disactive {
+  padding: 10px 28px;
+  color: #fff;
+  background: #dddee8;
+  border-radius: 4px;
+}
+.profle_main_btn {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  right: 16px;
+}
+@media screen and (max-width: 1300px) {
+  .other_profiles_header_community {
+    .sub_btn {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .profle_main_btn {
+    display: block;
+  }
+  .other_profiles_header_community {
+    .copy_link {
+      display: none;
+    }
+    .sub_btn {
+      display: block;
+    }
+  }
+  .My_nav {
+    display: none;
+  }
+  .myprofiles_banner_adaptive_inner {
+    visibility: visible;
+    opacity: 1;
+  }
+  .w3-red::after {
+    bottom: -18px;
+  }
+}
